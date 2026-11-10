@@ -5,8 +5,14 @@
 <!--       Cloud & DevOps Engineer | AWS Security Architect | Full Stack | AI  -->
 <!-- ========================================================================= -->
 
-<!-- Glowing Ferrari Red Header Wave Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050000,45:4a0000,100:ff2800&text=Sudeep%20Nellappa&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Cloud%20and%20DevOps%20Engineer%20%E2%80%A2%20AWS%20Security%20%E2%80%A2%20Full%20Stack%20%E2%80%A2%20Local%20AI&descAlignY=57&descSize=18&animation=fadeIn" width="100%" alt="Sudeep Nellappa Banner" />
+<!-- Dual Dynamic Theme Banners: Dark & Light Mode Toggle -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
+  <img alt="Sudeep Nellappa" src="assets/banner-light.png" width="100%" style="border-radius: 12px;">
+</picture>
+
+<br/><br/>
 
 <!-- Dynamic Animated Role Typewriter in Cool Cyan -->
 <a href="https://git.io/typing-svg">
@@ -42,38 +48,34 @@
 
 ## ⚡ Executive Briefing & About Me
 
-<!-- Live Animated Terminal Window -->
 <div align="center">
-  <table width="100%" style="background-color: #0b1329; border: 1.5px solid #38bdf8; border-radius: 10px; overflow: hidden;" cellpadding="0" cellspacing="0">
-    <tr style="background-color: #0f172a;">
-      <td style="padding: 10px 15px; border-bottom: 1px solid #1e293b;">
-        <span style="color: #ff5f56; font-size: 14px;">●</span>
-        <span style="color: #ffbd2e; font-size: 14px;">●</span>
-        <span style="color: #27c93f; font-size: 14px;">●</span>
-        &nbsp;&nbsp;<b style="font-family: 'Fira Code', monospace; color: #38bdf8; font-size: 13px;">bash &mdash; sudeep@cloud-defense-core:~</b>
-      </td>
-    </tr>
+  <table width="100%" border="0" cellspacing="0" cellpadding="20" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px;">
     <tr>
-      <td align="center" style="padding: 20px 10px;">
-        <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1200&color=00F2FE&center=true&vCenter=true&multiline=true&width=740&height=140&lines=%3E+sudeep.get_role()+%E2%9E%94+Cloud+and+DevOps+Engineer+%7C+AWS+Security+Architect;%3E+sudeep.get_education()+%E2%9E%94+MCA+(Karnatak+Univ)+%7C+BCA+(Graduated+2024);%3E+sudeep.get_stack()+%E2%9E%94+AWS+%E2%80%A2+CI%2FCD+%E2%80%A2+Python+%E2%80%A2+React+%E2%80%A2+Ollama+%E2%80%A2+Hugging+Face;%3E+sudeep.get_availability()+%E2%9E%94+Open+to+Work+(Full-Time+%2F+Remote)" alt="Terminal Typewriter" />
-        </a>
+      <td width="55%" valign="top" style="color: #e2e8f0; font-size: 14px; line-height: 1.6;">
+        <h3 style="color: #00f2fe; margin-top: 0;">👋 Hey, I'm Sudeep!</h3>
+        <p>
+          I'm a <b>Cloud &amp; DevOps Engineer</b>, <b>AWS Security Architect</b>, and <b>Full Stack Web Developer</b> currently completing my <b>MCA at Karnatak University, Dharwad</b>. I specialize in designing resilient multi-region cloud infrastructures, engineering automated zero-downtime CI/CD release pipelines, and deploying privacy-first <b>Local AI systems with Ollama and Hugging Face</b>.
+        </p>
+        <p>
+          My flagship project is <b>AWS CloudShield</b> — an enterprise AWS security and auto-remediation platform running 52+ security controls across 9 AWS regions with ~40-second lightning audit scans and real-time WebSocket threat telemetry.
+        </p>
+        <p>
+          🎮 <b>Beyond the Terminal:</b> When I'm not writing code or monitoring cloud infrastructure, you'll find me immersed in story-driven video games like <b>Red Dead Redemption 2 (RDR2)</b> and <b>The Last of Us</b>, or competing in <b>EA Sports FC (FIFA)</b> and <b>F1 Sim Racing</b>. I'm also a huge sports fanatic who loves watching live <b>Formula 1 (F1) Grand Prix</b> and international <b>Football</b>! ⚽🏎️
+        </p>
+        <br/>
+        <div>
+          <img src="https://img.shields.io/badge/Focus-Cloud%20%26%20DevOps-00f2fe?style=flat-square" />
+          &nbsp;
+          <img src="https://img.shields.io/badge/Gaming-RDR2%20%7C%20TLOU%20%7C%20FIFA%20%7C%20F1-ff5500?style=flat-square" />
+          &nbsp;
+          <img src="https://img.shields.io/badge/Sports-Football%20%26%20F1-10b981?style=flat-square" />
+        </div>
+      </td>
+      <td width="45%" valign="middle" align="center" style="padding-left: 10px;">
+        <img src="assets/about-scene.svg" width="100%" style="border-radius: 10px; border: 1px solid #1e3a5f;" alt="About Scene Artwork by Sudeep" />
       </td>
     </tr>
   </table>
-
-  <br/>
-
-  <!-- High-Impact Quick Metric Pills -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/⚡%20CloudShield-52%2B%20Security%20Checks%20in%209%20Regions-FF9900?style=flat-square" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/🚀%20DevOps-129%20Automated%20CI%2FCD%20Builds-2088FF?style=flat-square" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/🧠%20AI-Local%20LLMs%20(Ollama%20%26%20HF)-9C27B0?style=flat-square" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/💼%20Delivery-95%25%20Client%20Satisfaction-00C853?style=flat-square" />
-  </p>
 </div>
 
 <br/>
@@ -88,7 +90,7 @@
       <!-- Pillar 1: AWS & Cloud Security -->
       <td width="50%" valign="top" align="center" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px; padding: 15px;">
         <h3 style="color: #ff9900;">☁️ AWS &amp; Cloud Security</h3>
-        <img src="./assets/pillar-cloud.svg" width="100%" alt="AWS Cloud Security Architecture" />
+        <img src="assets/pillar-cloud.svg" width="100%" alt="AWS Cloud Security Architecture" />
         <br/><br/>
         <p align="center">
           <b>Multi-Region Security Auditing &amp; Zero-Risk Remediation</b><br/>
@@ -102,7 +104,7 @@
       <!-- Pillar 2: DevOps, CI/CD & Deployment -->
       <td width="50%" valign="top" align="center" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px; padding: 15px;">
         <h3 style="color: #38bdf8;">🚀 DevOps &amp; Automated Deployment</h3>
-        <img src="./assets/pillar-devops.svg" width="100%" alt="DevOps CI/CD Deployment Pipeline" />
+        <img src="assets/pillar-devops.svg" width="100%" alt="DevOps CI/CD Deployment Pipeline" />
         <br/><br/>
         <p align="center">
           <b>Multi-Stage Release Automation &amp; Zero-Downtime CI/CD</b><br/>
@@ -119,7 +121,7 @@
       <!-- Pillar 3: Full Stack Web Development -->
       <td width="50%" valign="top" align="center" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px; padding: 15px;">
         <h3 style="color: #61dafb;">💻 Full Stack Web &amp; Systems</h3>
-        <img src="./assets/pillar-fullstack.svg" width="100%" alt="Full Stack Web Architecture" />
+        <img src="assets/pillar-fullstack.svg" width="100%" alt="Full Stack Web Architecture" />
         <br/><br/>
         <p align="center">
           <b>Reactive Frontends, Asynchronous APIs &amp; Real-Time Streams</b><br/>
@@ -135,7 +137,7 @@
       <!-- Pillar 4: AI Model Training & Local AI -->
       <td width="50%" valign="top" align="center" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px; padding: 15px;">
         <h3 style="color: #c084fc;">🧠 AI Model Training &amp; Local AI</h3>
-        <img src="./assets/pillar-ai.svg" width="100%" alt="AI Model Training & Local LLMs" />
+        <img src="assets/pillar-ai.svg" width="100%" alt="AI Model Training & Local LLMs" />
         <br/><br/>
         <p align="center">
           <b>Privacy-First Local AI Deployment &amp; Transformer Pipelines</b><br/>
@@ -164,7 +166,7 @@
 
 <!-- Real-Time Radar Scanner & Threat Telemetry Animation -->
 <div align="center">
-  <img src="./assets/aws-shield-radar.svg" width="100%" alt="AWS CloudShield Defense Engine Live Radar" />
+  <img src="assets/aws-shield-radar.svg" width="100%" alt="AWS CloudShield Defense Engine Live Radar" />
 </div>
 
 <br/>
@@ -398,9 +400,9 @@
 
 <br/>
 
-<!-- Matching Ferrari Red Wavy Footer Banner -->
+<!-- Matching Sleek Cyber Footer Wave -->
 <div align="center">
   <a href="https://github.com/NSudeep-Rust">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:ff2800,50:4a0000,100:050000&section=footer" width="100%" alt="Footer Wave" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:030712,50:0b1329,100:00f2fe&section=footer" width="100%" alt="Footer Wave" />
   </a>
 </div>
