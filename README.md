@@ -18,7 +18,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)">
   <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0369a1&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)" alt="Typing SVG" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0369a1&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)" alt="Typing SVG" width="100%" />
 </picture>
 
 <br/><br/>
@@ -51,7 +51,11 @@
 ## ⚡ Executive Briefing & About Me
 
 <div align="center">
-  <img src="assets/01-about.svg" width="100%" alt="Executive Briefing & About Me" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/01-about-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/01-about-light.svg">
+    <img alt="Executive Briefing & About Me" src="assets/01-about-light.svg" width="100%">
+  </picture>
 </div>
 
 <br/>
@@ -61,7 +65,11 @@
 ## ⚡ Core Engineering Pillars
 
 <div align="center">
-  <img src="assets/02-pillars.svg" width="100%" alt="Core Engineering Pillars" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/02-pillars-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/02-pillars-light.svg">
+    <img alt="Core Engineering Pillars" src="assets/02-pillars-light.svg" width="100%">
+  </picture>
 </div>
 
 <br/>
@@ -71,7 +79,11 @@
 ## 🛡️ Featured Engineering Project: AWS CloudShield
 
 <div align="center">
-  <img src="assets/03-cloudshield.svg" width="100%" alt="Featured Engineering Project: AWS CloudShield" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/03-cloudshield-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/03-cloudshield-light.svg">
+    <img alt="Featured Engineering Project: AWS CloudShield" src="assets/03-cloudshield-light.svg" width="100%">
+  </picture>
 </div>
 
 <br/>
@@ -96,7 +108,11 @@
 ## 📈 Real-Time GitHub Telemetry & Stats
 
 <div align="center">
-  <img src="assets/04-stats.svg" width="100%" alt="Real-Time GitHub Telemetry & Stats" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/04-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/04-stats-light.svg">
+    <img alt="Real-Time GitHub Telemetry & Stats" src="assets/04-stats-light.svg" width="100%">
+  </picture>
 </div>
 
 <br/>
@@ -106,7 +122,11 @@
 ## 🏎️ Live Contribution Activity Grid
 
 <div align="center">
-  <img src="assets/05-f1-grid.svg" width="100%" alt="Live Contribution Activity Grid" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/05-f1-grid-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/05-f1-grid-light.svg">
+    <img alt="Live Contribution Activity Grid" src="assets/05-f1-grid-light.svg" width="100%">
+  </picture>
 </div>
 
 <br/>
@@ -116,7 +136,11 @@
 ## 🤝 Let's Connect & Collaborate!
 
 <div align="center">
-  <img src="assets/06-connect.svg" width="100%" alt="Let's Connect & Collaborate!" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/06-connect-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/06-connect-light.svg">
+    <img alt="Let's Connect & Collaborate!" src="assets/06-connect-light.svg" width="100%">
+  </picture>
 
   <br/><br/>
 
