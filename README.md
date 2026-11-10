@@ -8,8 +8,8 @@
 <!-- Dual Dynamic Theme Banners: Dark & Light Mode Toggle -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
-  <img alt="Sudeep Nellappa" src="assets/banner-light.png" width="100%" style="border-radius: 12px;">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Sudeep Nellappa" src="assets/banner-light.svg" width="100%" style="border-radius: 12px;">
 </picture>
 
 <br/><br/>
