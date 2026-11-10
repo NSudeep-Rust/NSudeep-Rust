@@ -5,19 +5,12 @@
 <!--       Cloud & DevOps Engineer | AWS Security Architect | Full Stack | AI  -->
 <!-- ========================================================================= -->
 
-<!-- Circular Profile Picture with Ferrari Red Glowing Border -->
-<p align="center">
-  <a href="https://github.com/NSudeep-Rust">
-    <img src="./assets/profile.png" width="130" height="130" style="border-radius: 50%; border: 3px solid #FF2800; box-shadow: 0 0 25px rgba(255, 40, 0, 0.7);" alt="Sudeep Nellappa Profile Picture" />
-  </a>
-</p>
-
 <!-- Glowing Ferrari Red Header Wave Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050000,45:4a0000,100:ff2800&text=Sudeep%20Nellappa&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Cloud%20and%20DevOps%20Engineer%20%E2%80%A2%20AWS%20Security%20%E2%80%A2%20Full%20Stack%20%E2%80%A2%20Local%20AI&descAlignY=57&descSize=18&animation=fadeIn" width="100%" alt="Sudeep Nellappa Banner" />
 
-<!-- Dynamic Animated Role Typewriter in Ferrari Red -->
+<!-- Dynamic Animated Role Typewriter in Cool Cyan -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FF2800&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -28,10 +21,10 @@
 </a>
 &nbsp;
 <a href="#-lets-connect--collaborate">
-  <img src="https://img.shields.io/badge/Open_To-Collaborate-FF2800?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to Collaborate" />
+  <img src="https://img.shields.io/badge/Open_To-Collaborate-00B0FF?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to Collaborate" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/Location-Dharwad%2C_Karnataka-1c0505?style=for-the-badge&logo=googlemaps&logoColor=FF2800" alt="Location" />
+<img src="https://img.shields.io/badge/Location-Dharwad%2C_Karnataka-0f172a?style=for-the-badge&logo=googlemaps&logoColor=00F2FE" alt="Location" />
 
 <br/><br/>
 
@@ -40,32 +33,30 @@
 <img src="https://img.shields.io/badge/Google-Cybersecurity_Certified-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity" />
 &nbsp;
 <img src="https://img.shields.io/badge/Google-AI_Essentials-9C27B0?style=for-the-badge&logo=google&logoColor=white" alt="Google AI Essentials" />
-&nbsp;
-<img src="https://img.shields.io/badge/BCA_Distinction-8.92_CGPA-00E676?style=for-the-badge&logo=academia&logoColor=white" alt="BCA 8.92 CGPA" />
 
 </div>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
 ## ⚡ Executive Briefing & About Me
 
 <!-- Live Animated Terminal Window -->
 <div align="center">
-  <table width="100%" style="background-color: #0d0202; border: 1.5px solid #FF2800; border-radius: 10px; overflow: hidden;" cellpadding="0" cellspacing="0">
-    <tr style="background-color: #1f0404;">
-      <td style="padding: 10px 15px; border-bottom: 1px solid #4a0808;">
+  <table width="100%" style="background-color: #0b1329; border: 1.5px solid #38bdf8; border-radius: 10px; overflow: hidden;" cellpadding="0" cellspacing="0">
+    <tr style="background-color: #0f172a;">
+      <td style="padding: 10px 15px; border-bottom: 1px solid #1e293b;">
         <span style="color: #ff5f56; font-size: 14px;">●</span>
         <span style="color: #ffbd2e; font-size: 14px;">●</span>
         <span style="color: #27c93f; font-size: 14px;">●</span>
-        &nbsp;&nbsp;<b style="font-family: 'Fira Code', monospace; color: #ff8080; font-size: 13px;">bash &mdash; sudeep@cloud-defense-core:~</b>
+        &nbsp;&nbsp;<b style="font-family: 'Fira Code', monospace; color: #38bdf8; font-size: 13px;">bash &mdash; sudeep@cloud-defense-core:~</b>
       </td>
     </tr>
     <tr>
       <td align="center" style="padding: 20px 10px;">
         <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1200&color=FF2800&center=true&vCenter=true&multiline=true&width=740&height=140&lines=%3E+sudeep.get_role()+%E2%9E%94+Cloud+and+DevOps+Engineer+%7C+AWS+Security+Architect;%3E+sudeep.get_education()+%E2%9E%94+MCA+(Karnatak+Univ)+%7C+BCA+Distinction+(8.92+CGPA);%3E+sudeep.get_stack()+%E2%9E%94+AWS+%E2%80%A2+CI%2FCD+%E2%80%A2+Python+%E2%80%A2+React+%E2%80%A2+Ollama+%E2%80%A2+Hugging+Face;%3E+sudeep.get_availability()+%E2%9E%94+Open+to+Work+(Full-Time+%2F+Remote)" alt="Terminal Typewriter" />
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1200&color=00F2FE&center=true&vCenter=true&multiline=true&width=740&height=140&lines=%3E+sudeep.get_role()+%E2%9E%94+Cloud+and+DevOps+Engineer+%7C+AWS+Security+Architect;%3E+sudeep.get_education()+%E2%9E%94+MCA+(Karnatak+Univ)+%7C+BCA+(Graduated+2024);%3E+sudeep.get_stack()+%E2%9E%94+AWS+%E2%80%A2+CI%2FCD+%E2%80%A2+Python+%E2%80%A2+React+%E2%80%A2+Ollama+%E2%80%A2+Hugging+Face;%3E+sudeep.get_availability()+%E2%9E%94+Open+to+Work+(Full-Time+%2F+Remote)" alt="Terminal Typewriter" />
         </a>
       </td>
     </tr>
@@ -75,9 +66,9 @@
 
   <!-- High-Impact Quick Metric Pills -->
   <p align="center">
-    <img src="https://img.shields.io/badge/⚡%20CloudShield-52%2B%20Security%20Checks%20in%209%20Regions-FF2800?style=flat-square" />
+    <img src="https://img.shields.io/badge/⚡%20CloudShield-52%2B%20Security%20Checks%20in%209%20Regions-FF9900?style=flat-square" />
     &nbsp;
-    <img src="https://img.shields.io/badge/🚀%20DevOps-129%20Automated%20CI%2FCD%20Builds-FF5500?style=flat-square" />
+    <img src="https://img.shields.io/badge/🚀%20DevOps-129%20Automated%20CI%2FCD%20Builds-2088FF?style=flat-square" />
     &nbsp;
     <img src="https://img.shields.io/badge/🧠%20AI-Local%20LLMs%20(Ollama%20%26%20HF)-9C27B0?style=flat-square" />
     &nbsp;
@@ -86,7 +77,7 @@
 </div>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
 ## ⚡ Core Engineering Pillars
@@ -95,27 +86,27 @@
   <table width="100%" border="0" cellspacing="12" cellpadding="12">
     <tr>
       <!-- Pillar 1: AWS & Cloud Security -->
-      <td width="50%" valign="top" align="center" style="background-color: #0f0202; border: 1.5px solid #FF2800; border-radius: 12px; padding: 15px;">
-        <h3 style="color: #ffffff;">☁️ AWS & Cloud Security</h3>
+      <td width="50%" valign="top" align="center" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px; padding: 15px;">
+        <h3 style="color: #ff9900;">☁️ AWS &amp; Cloud Security</h3>
         <img src="./assets/pillar-cloud.svg" width="100%" alt="AWS Cloud Security Architecture" />
         <br/><br/>
         <p align="center">
-          <b>Multi-Region Security Auditing & Zero-Risk Remediation</b><br/>
-          <small style="color: #ff9999;">52+ Automated Checks • IAM Blast-Radius • CIS / PCI DSS / NIST</small>
+          <b>Multi-Region Security Auditing &amp; Zero-Risk Remediation</b><br/>
+          <small style="color: #94a3b8;">52+ Automated Checks • IAM Blast-Radius • CIS / PCI DSS / NIST</small>
         </p>
         <p align="center">
           <img src="https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20IAM%20%7C%20VPC-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
-          <img src="https://img.shields.io/badge/Security-NIST%20%7C%20CIS%20%7C%20SOC%202-FF2800?style=flat-square&logo=shield&logoColor=white" />
+          <img src="https://img.shields.io/badge/Security-NIST%20%7C%20CIS%20%7C%20SOC%202-00E676?style=flat-square&logo=shield&logoColor=white" />
         </p>
       </td>
       <!-- Pillar 2: DevOps, CI/CD & Deployment -->
-      <td width="50%" valign="top" align="center" style="background-color: #0f0202; border: 1.5px solid #FF2800; border-radius: 12px; padding: 15px;">
-        <h3 style="color: #ffffff;">🚀 DevOps & Automated Deployment</h3>
+      <td width="50%" valign="top" align="center" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px; padding: 15px;">
+        <h3 style="color: #38bdf8;">🚀 DevOps &amp; Automated Deployment</h3>
         <img src="./assets/pillar-devops.svg" width="100%" alt="DevOps CI/CD Deployment Pipeline" />
         <br/><br/>
         <p align="center">
-          <b>Multi-Stage Release Automation & Zero-Downtime CI/CD</b><br/>
-          <small style="color: #ff9999;">GitHub Actions Workflows • Linux / Bash • Cross-Platform Packaging</small>
+          <b>Multi-Stage Release Automation &amp; Zero-Downtime CI/CD</b><br/>
+          <small style="color: #94a3b8;">GitHub Actions Workflows • Linux / Bash • Cross-Platform Packaging</small>
         </p>
         <p align="center">
           <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
@@ -126,13 +117,13 @@
     </tr>
     <tr>
       <!-- Pillar 3: Full Stack Web Development -->
-      <td width="50%" valign="top" align="center" style="background-color: #0f0202; border: 1.5px solid #FF2800; border-radius: 12px; padding: 15px;">
-        <h3 style="color: #ffffff;">💻 Full Stack Web & Systems</h3>
+      <td width="50%" valign="top" align="center" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px; padding: 15px;">
+        <h3 style="color: #61dafb;">💻 Full Stack Web &amp; Systems</h3>
         <img src="./assets/pillar-fullstack.svg" width="100%" alt="Full Stack Web Architecture" />
         <br/><br/>
         <p align="center">
-          <b>Reactive Frontends, Asynchronous APIs & Real-Time Streams</b><br/>
-          <small style="color: #ff9999;">React • FastAPI REST • WebSockets • PHP • MySQL Indexing</small>
+          <b>Reactive Frontends, Asynchronous APIs &amp; Real-Time Streams</b><br/>
+          <small style="color: #94a3b8;">React • FastAPI REST • WebSockets • PHP • MySQL Indexing</small>
         </p>
         <p align="center">
           <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
@@ -142,13 +133,13 @@
         </p>
       </td>
       <!-- Pillar 4: AI Model Training & Local AI -->
-      <td width="50%" valign="top" align="center" style="background-color: #0f0202; border: 1.5px solid #FF2800; border-radius: 12px; padding: 15px;">
-        <h3 style="color: #ffffff;">🧠 AI Model Training & Local AI</h3>
+      <td width="50%" valign="top" align="center" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 12px; padding: 15px;">
+        <h3 style="color: #c084fc;">🧠 AI Model Training &amp; Local AI</h3>
         <img src="./assets/pillar-ai.svg" width="100%" alt="AI Model Training & Local LLMs" />
         <br/><br/>
         <p align="center">
-          <b>Privacy-First Local AI Deployment & Transformer Pipelines</b><br/>
-          <small style="color: #ff9999;">Ollama (Llama, DeepSeek, Mistral) • Hugging Face • Google AI Essentials</small>
+          <b>Privacy-First Local AI Deployment &amp; Transformer Pipelines</b><br/>
+          <small style="color: #94a3b8;">Ollama (Llama, DeepSeek, Mistral) • Hugging Face • Google AI Essentials</small>
         </p>
         <p align="center">
           <img src="https://img.shields.io/badge/Ollama-Local%20LLMs-000000?style=flat-square&logo=ollama&logoColor=white" />
@@ -161,7 +152,7 @@
 </div>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
 ## 🛡️ Featured Engineering Project: AWS CloudShield
@@ -181,32 +172,32 @@
 <div align="center">
   <table width="100%" border="0" cellspacing="5" cellpadding="8">
     <tr>
-      <td width="25%" align="center" style="background-color: #1a0303; border: 1px solid #FF2800; border-radius: 8px;">
-        <b style="color: #FF2800; font-size: 16px;">52+ Checks</b><br/>
-        <small>Audits across 9 AWS regions in ~40s</small>
+      <td width="25%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
+        <b style="color: #ff9900; font-size: 16px;">52+ Checks</b><br/>
+        <small style="color: #94a3b8;">Audits across 9 AWS regions in ~40s</small>
       </td>
-      <td width="25%" align="center" style="background-color: #1a0303; border: 1px solid #FF2800; border-radius: 8px;">
-        <b style="color: #FF2800; font-size: 16px;">195+ Threats</b><br/>
-        <small>Real-time WebSocket telemetry stream</small>
+      <td width="25%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
+        <b style="color: #00f2fe; font-size: 16px;">195+ Threats</b><br/>
+        <small style="color: #94a3b8;">Real-time WebSocket telemetry stream</small>
       </td>
-      <td width="25%" align="center" style="background-color: #1a0303; border: 1px solid #FF2800; border-radius: 8px;">
-        <b style="color: #FF2800; font-size: 16px;">1-Click Rollback</b><br/>
-        <small>Dry-run remediations & instant restore</small>
+      <td width="25%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
+        <b style="color: #10b981; font-size: 16px;">1-Click Rollback</b><br/>
+        <small style="color: #94a3b8;">Dry-run remediations &amp; instant restore</small>
       </td>
-      <td width="25%" align="center" style="background-color: #1a0303; border: 1px solid #FF2800; border-radius: 8px;">
-        <b style="color: #FF2800; font-size: 16px;">Compliance Suite</b><br/>
-        <small>CIS Benchmarks, PCI DSS & NIST CSF</small>
+      <td width="25%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
+        <b style="color: #38bdf8; font-size: 16px;">Compliance Suite</b><br/>
+        <small style="color: #94a3b8;">CIS Benchmarks, PCI DSS &amp; NIST CSF</small>
       </td>
     </tr>
   </table>
   <br/>
   <a href="https://github.com/NSudeep-Rust/AWS-Cloud-Control-Panel">
-    <img src="https://img.shields.io/badge/Explore%20AWS%20CloudShield%20Repository-FF2800?style=for-the-badge&logo=github&logoColor=white" alt="View AWS CloudShield" />
+    <img src="https://img.shields.io/badge/Explore%20AWS%20CloudShield%20Repository-232F3E?style=for-the-badge&logo=github&logoColor=00F2FE" alt="View AWS CloudShield" />
   </a>
 </div>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
 ## 💼 Additional Professional Experience & Builds
@@ -239,7 +230,7 @@
 </table>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
 ## 🛠️ Technical Skills & Tooling
@@ -265,52 +256,52 @@
 </div>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
-## 🏆 Verified Credentials & Academic Honors
+## 🏆 Verified Credentials & Education
 
 <div align="center">
   <table width="100%" border="0" cellspacing="5" cellpadding="8">
     <tr>
-      <td width="33%" align="center" style="background-color: #140202; border: 1px solid #FF2800; border-radius: 8px;">
+      <td width="33%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
         <img src="https://img.shields.io/badge/AWS-Official%20Curriculum-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /><br/>
-        <b style="color: #ffffff;">AWS & DevOps Certified</b><br/>
-        <small style="color: #ff9999;">XplorePro (Official AWS Curriculum)</small>
+        <b style="color: #ffffff;">AWS &amp; DevOps Certified</b><br/>
+        <small style="color: #94a3b8;">XplorePro (Official AWS Curriculum)</small>
       </td>
-      <td width="33%" align="center" style="background-color: #140202; border: 1px solid #FF2800; border-radius: 8px;">
+      <td width="33%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
         <img src="https://img.shields.io/badge/Google-Cybersecurity%20Professional-4285F4?style=flat-square&logo=google&logoColor=white" /><br/>
         <b style="color: #ffffff;">Google Cybersecurity Certificate</b><br/>
-        <small style="color: #ff9999;">Network Security, SIEM & Incident Response</small>
+        <small style="color: #94a3b8;">Network Security, SIEM &amp; Incident Response</small>
       </td>
-      <td width="33%" align="center" style="background-color: #140202; border: 1px solid #FF2800; border-radius: 8px;">
+      <td width="33%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
         <img src="https://img.shields.io/badge/Google-AI%20Essentials-9C27B0?style=flat-square&logo=google&logoColor=white" /><br/>
         <b style="color: #ffffff;">Google AI Essentials</b><br/>
-        <small style="color: #ff9999;">Machine Learning, NLP & Computer Vision</small>
+        <small style="color: #94a3b8;">Machine Learning, NLP &amp; Computer Vision</small>
       </td>
     </tr>
     <tr>
-      <td width="33%" align="center" style="background-color: #140202; border: 1px solid #FF2800; border-radius: 8px;">
+      <td width="33%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
         <img src="https://img.shields.io/badge/AWS-Training%20Certificate-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /><br/>
         <b style="color: #ffffff;">AWS Training Certificate</b><br/>
-        <small style="color: #ff9999;">Core Cloud Services & Architecture</small>
+        <small style="color: #94a3b8;">Core Cloud Services &amp; Architecture</small>
       </td>
-      <td width="33%" align="center" style="background-color: #140202; border: 1px solid #FF2800; border-radius: 8px;">
+      <td width="33%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
         <img src="https://img.shields.io/badge/Full%20Stack-Pravinya%20InfoTech-00C853?style=flat-square&logo=code&logoColor=white" /><br/>
         <b style="color: #ffffff;">Full Stack Training Certificate</b><br/>
-        <small style="color: #ff9999;">Full Stack PHP, MySQL, Bootstrap</small>
+        <small style="color: #94a3b8;">Full Stack PHP, MySQL, Bootstrap</small>
       </td>
-      <td width="33%" align="center" style="background-color: #140202; border: 1px solid #FF2800; border-radius: 8px;">
-        <img src="https://img.shields.io/badge/BCA-8.92%20CGPA-00E676?style=flat-square&logo=academia&logoColor=white" /><br/>
-        <b style="color: #ffffff;">BCA Degree with Distinction</b><br/>
-        <small style="color: #ff9999;">JSS SMI UG & PG Studies, Dharwad</small>
+      <td width="33%" align="center" style="background-color: #0b1329; border: 1px solid #1e3a5f; border-radius: 8px;">
+        <img src="https://img.shields.io/badge/Degree-BCA%20Graduate-00E676?style=flat-square&logo=academia&logoColor=white" /><br/>
+        <b style="color: #ffffff;">Bachelor of Computer Applications (BCA)</b><br/>
+        <small style="color: #94a3b8;">JSS SMI UG &amp; PG Studies, Dharwad</small>
       </td>
     </tr>
   </table>
 </div>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
 ## 📈 Real-Time GitHub Telemetry & Stats
@@ -320,12 +311,12 @@
     <tr>
       <td>
         <a href="https://github.com/NSudeep-Rust">
-          <img src="https://github-stats-extended.vercel.app/api?username=NSudeep-Rust&show_icons=true&theme=tokyonight&hide_border=true&title_color=FF2800&icon_color=FF2800&text_color=ff9999&bg_color=0f0202" height="175" alt="GitHub Stats" />
+          <img src="https://github-stats-extended.vercel.app/api?username=NSudeep-Rust&show_icons=true&theme=tokyonight&hide_border=true&title_color=00F2FE&icon_color=00F2FE&text_color=94a3b8&bg_color=0b1329" height="175" alt="GitHub Stats" />
         </a>
       </td>
       <td>
         <a href="https://github.com/NSudeep-Rust">
-          <img src="https://github-stats-extended.vercel.app/api/top-langs?username=NSudeep-Rust&layout=compact&theme=tokyonight&hide_border=true&title_color=FF2800&text_color=ff9999&bg_color=0f0202" height="175" alt="Top Languages" />
+          <img src="https://github-stats-extended.vercel.app/api/top-langs?username=NSudeep-Rust&layout=compact&theme=tokyonight&hide_border=true&title_color=00F2FE&text_color=94a3b8&bg_color=0b1329" height="175" alt="Top Languages" />
         </a>
       </td>
     </tr>
@@ -334,25 +325,25 @@
   <!-- Live GitHub Streak Counter -->
   <p align="center">
     <a href="https://github.com/NSudeep-Rust">
-      <img src="https://streak-stats.demolab.com?user=NSudeep-Rust&theme=tokyonight&hide_border=true&stroke=FF2800&background=0f0202&ring=FF2800&fire=FF2800&currStreakLabel=FF2800" alt="GitHub Streak Stats" />
+      <img src="https://streak-stats.demolab.com?user=NSudeep-Rust&theme=tokyonight&hide_border=true&stroke=00F2FE&background=0b1329&ring=00F2FE&fire=FF9900&currStreakLabel=00F2FE" alt="GitHub Streak Stats" />
     </a>
   </p>
 </div>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
 ## 🏎️ Live Contribution Activity Grid
 
 <div align="center">
-  <table width="100%" style="background-color: #0d0202; border: 1.5px solid #FF2800; border-radius: 10px; overflow: hidden;" cellpadding="0" cellspacing="0">
-    <tr style="background-color: #1f0404;">
-      <td style="padding: 10px 15px; border-bottom: 1px solid #4a0808;">
+  <table width="100%" style="background-color: #0b1329; border: 1.5px solid #1e3a5f; border-radius: 10px; overflow: hidden;" cellpadding="0" cellspacing="0">
+    <tr style="background-color: #0f172a;">
+      <td style="padding: 10px 15px; border-bottom: 1px solid #1e293b;">
         <span style="color: #ff5f56; font-size: 14px;">●</span>
         <span style="color: #ffbd2e; font-size: 14px;">●</span>
         <span style="color: #27c93f; font-size: 14px;">●</span>
-        &nbsp;&nbsp;<b style="font-family: 'Fira Code', monospace; color: #ff8080; font-size: 13px;">snake &mdash; live-commit-eater@github-feed:~</b>
+        &nbsp;&nbsp;<b style="font-family: 'Fira Code', monospace; color: #38bdf8; font-size: 13px;">snake &mdash; live-commit-eater@github-feed:~</b>
       </td>
     </tr>
     <tr>
@@ -368,7 +359,7 @@
 </div>
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:050000,50:ff2800,100:050000" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
 ## 🤝 Let's Connect & Collaborate!

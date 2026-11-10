@@ -1,52 +1,49 @@
 <svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="radarBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0202" />
-      <stop offset="50%" stop-color="#140303" />
-      <stop offset="100%" stop-color="#050000" />
+    <linearGradient id="socBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d19" />
+      <stop offset="50%" stop-color="#0b1528" />
+      <stop offset="100%" stop-color="#030712" />
     </linearGradient>
 
     <!-- Radar Sweep Gradient -->
-    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff2800" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#ff2800" stop-opacity="0" />
+    <linearGradient id="socSweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Red Glow Filter -->
-    <filter id="redGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+    <!-- Cyan Glow Filter -->
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
   <style>
-    @keyframes sweep {
+    @keyframes sweep360 {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
-    @keyframes pulseThreat {
+    @keyframes blipPulse {
       0%, 100% { opacity: 0.3; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.3); }
+      50% { opacity: 1; transform: scale(1.4); }
     }
-    @keyframes blinkText {
-      0%, 100% { opacity: 0.8; }
-      50% { opacity: 0.3; }
-    }
-    .scanner-sweep {
+    .radar-sweep-beam {
       transform-origin: 400px 100px;
-      animation: sweep 4s linear infinite;
+      animation: sweep360 3.5s linear infinite;
     }
-    .threat-node {
-      animation: pulseThreat 2s ease-in-out infinite;
+    .blip {
+      animation: blipPulse 1.8s ease-in-out infinite;
+      transform-origin: center;
     }
-    .telemetry-text {
+    .soc-label {
       font-family: 'Fira Code', 'Courier New', monospace;
       font-size: 11px;
-      fill: #ff4d4d;
+      fill: #38bdf8;
       letter-spacing: 1px;
     }
-    .telemetry-val {
+    .soc-value {
       font-family: 'Fira Code', 'Courier New', monospace;
       font-size: 12px;
       font-weight: bold;
@@ -54,58 +51,59 @@
     }
   </style>
 
-  <!-- Container Box -->
-  <rect x="2" y="2" width="796" height="196" rx="12" fill="url(#radarBg)" stroke="#4a0808" stroke-width="1.5" />
+  <!-- Base Panel -->
+  <rect x="2" y="2" width="796" height="196" rx="10" fill="url(#socBg)" stroke="#1e293b" stroke-width="1.5" />
 
   <!-- Left Telemetry Panel -->
   <g transform="translate(30, 35)">
-    <text x="0" y="0" class="telemetry-text">SYSTEM DEFENSE ENGINE</text>
-    <text x="0" y="20" class="telemetry-val">AWS CLOUDSHIELD v2.4</text>
+    <text x="0" y="0" class="soc-label">DEFENSE ENGINE</text>
+    <text x="0" y="20" class="soc-value" fill="#00f2fe">AWS CLOUDSHIELD v2.4</text>
     
-    <text x="0" y="55" class="telemetry-text">SCAN COVERAGE</text>
-    <text x="0" y="75" class="telemetry-val">9 AWS REGIONS ACTIVE</text>
+    <text x="0" y="55" class="soc-label">GLOBAL FOOTPRINT</text>
+    <text x="0" y="75" class="soc-value">9 AWS REGIONS ACTIVE</text>
     
-    <text x="0" y="110" class="telemetry-text">SCAN FREQUENCY</text>
-    <text x="0" y="130" class="telemetry-val">~40s FULL AUDIT</text>
+    <text x="0" y="110" class="soc-label">AUDIT VELOCITY</text>
+    <text x="0" y="130" class="soc-value" fill="#34d399">~40s FULL ACCOUNT SCAN</text>
   </g>
 
-  <!-- Radar Grid Circles (Center at 400, 100) -->
+  <!-- Central Radar Display (Center: 400, 100) -->
   <g>
-    <circle cx="400" cy="100" r="85" fill="none" stroke="#3d0a0a" stroke-width="1" stroke-dasharray="4 4" />
-    <circle cx="400" cy="100" r="60" fill="none" stroke="#660d0d" stroke-width="1" />
-    <circle cx="400" cy="100" r="35" fill="none" stroke="#991414" stroke-width="1" stroke-dasharray="2 3" />
-    <circle cx="400" cy="100" r="10" fill="#ff2800" opacity="0.4" filter="url(#redGlow)" />
+    <!-- Range Rings -->
+    <circle cx="400" cy="100" r="85" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="3 4" />
+    <circle cx="400" cy="100" r="60" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.6" />
+    <circle cx="400" cy="100" r="35" fill="none" stroke="#0284c7" stroke-width="1" stroke-dasharray="2 3" />
+    <circle cx="400" cy="100" r="8" fill="#00f2fe" opacity="0.6" filter="url(#cyanGlow)" />
     
     <!-- Crosshairs -->
-    <line x1="305" y1="100" x2="495" y2="100" stroke="#3d0a0a" stroke-width="1" />
-    <line x1="400" y1="10" x2="400" y2="190" stroke="#3d0a0a" stroke-width="1" />
+    <line x1="305" y1="100" x2="495" y2="100" stroke="#1e293b" stroke-width="1" />
+    <line x1="400" y1="10" x2="400" y2="190" stroke="#1e293b" stroke-width="1" />
 
-    <!-- Rotating Radar Scanner Beam -->
-    <g class="scanner-sweep">
-      <path d="M 400 100 L 485 100 A 85 85 0 0 0 440 25 Z" fill="url(#sweepGrad)" opacity="0.5" />
-      <line x1="400" y1="100" x2="485" y2="100" stroke="#ff2800" stroke-width="2" filter="url(#redGlow)" />
+    <!-- Rotating Radar Beam -->
+    <g class="radar-sweep-beam">
+      <path d="M 400 100 L 485 100 A 85 85 0 0 0 440 25 Z" fill="url(#socSweep)" opacity="0.45" />
+      <line x1="400" y1="100" x2="485" y2="100" stroke="#00f2fe" stroke-width="2" filter="url(#cyanGlow)" />
     </g>
 
-    <!-- Radar Threat Targets -->
-    <circle cx="435" cy="65" r="4" fill="#ff2800" class="threat-node" filter="url(#redGlow)" />
-    <text x="444" y="68" font-family="'Fira Code', monospace" font-size="9" fill="#ff8080">IAM-01</text>
+    <!-- Radar Target Nodes -->
+    <circle cx="435" cy="65" r="4" fill="#f59e0b" class="blip" filter="url(#cyanGlow)" />
+    <text x="444" y="68" font-family="'Fira Code', monospace" font-size="9" fill="#fbbf24">IAM-RISK</text>
 
-    <circle cx="360" cy="130" r="4" fill="#ff2800" class="threat-node" style="animation-delay: 0.6s;" filter="url(#redGlow)" />
-    <text x="368" y="133" font-family="'Fira Code', monospace" font-size="9" fill="#ff8080">S3-LEAK</text>
+    <circle cx="355" cy="125" r="4" fill="#38bdf8" class="blip" style="animation-delay: 0.6s;" />
+    <text x="363" y="128" font-family="'Fira Code', monospace" font-size="9" fill="#7dd3fc">S3-AUDIT</text>
 
-    <circle cx="450" cy="120" r="4" fill="#00e676" class="threat-node" style="animation-delay: 1.2s;" />
-    <text x="458" y="123" font-family="'Fira Code', monospace" font-size="9" fill="#a7f3d0">VPC-OK</text>
+    <circle cx="450" cy="120" r="4" fill="#10b981" class="blip" style="animation-delay: 1.2s;" />
+    <text x="458" y="123" font-family="'Fira Code', monospace" font-size="9" fill="#6ee7b7">VPC-PEER</text>
   </g>
 
   <!-- Right Telemetry Panel -->
   <g transform="translate(600, 35)">
-    <text x="0" y="0" class="telemetry-text">SECURITY CONTROLS</text>
-    <text x="0" y="20" class="telemetry-val">52+ ACTIVE CHECKS</text>
+    <text x="0" y="0" class="soc-label">SECURITY CONTROLS</text>
+    <text x="0" y="20" class="soc-value" fill="#38bdf8">52+ COMPLIANCE CHECKS</text>
     
-    <text x="0" y="55" class="telemetry-text">THREAT DETECTIONS</text>
-    <text x="0" y="75" class="telemetry-val" fill="#ff4d4d">195+ LIVE VECTORS</text>
+    <text x="0" y="55" class="soc-label">THREAT STREAM</text>
+    <text x="0" y="75" class="soc-value" fill="#fbbf24">195+ LIVE WS VECTORS</text>
     
-    <text x="0" y="110" class="telemetry-text">COMPLIANCE SUITE</text>
-    <text x="0" y="130" class="telemetry-val">CIS / PCI DSS / NIST</text>
+    <text x="0" y="110" class="soc-label">COMPLIANCE SUITE</text>
+    <text x="0" y="130" class="soc-value" fill="#34d399">CIS / PCI DSS / NIST CSF</text>
   </g>
 </svg>

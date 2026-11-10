@@ -1,59 +1,64 @@
-<svg width="100%" height="150" viewBox="0 0 380 150" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="160" viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#140303" />
-      <stop offset="100%" stop-color="#050000" />
+    <linearGradient id="aiCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#030712" />
     </linearGradient>
-    <filter id="aiGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="purpleGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
+
   <style>
-    @keyframes synapsePulse {
+    @keyframes synapseGlow {
       0%, 100% { opacity: 0.3; stroke-width: 1; }
-      50% { opacity: 1; stroke-width: 2.2; stroke: #ff2800; }
+      50% { opacity: 1; stroke-width: 2; stroke: #a855f7; }
     }
-    @keyframes neuronGlow {
-      0%, 100% { r: 6; fill: #ff2800; }
-      50% { r: 8.5; fill: #ffffff; }
+    @keyframes neuronPulse {
+      0%, 100% { r: 5.5; fill: #a855f7; }
+      50% { r: 7.5; fill: #00f2fe; }
     }
-    .synapse { stroke: #660a0a; animation: synapsePulse 2s infinite ease-in-out; }
-    .neuron { animation: neuronGlow 2s infinite ease-in-out; }
+    .syn-line { stroke: #334155; animation: synapseGlow 2.2s infinite ease-in-out; }
+    .neur-dot { animation: neuronPulse 2.2s infinite ease-in-out; }
   </style>
-  <rect width="380" height="150" rx="8" fill="url(#aiGrad)" stroke="#4a0808" stroke-width="1.2" />
 
-  <!-- Synaptic Connections -->
-  <line x1="60" y1="45" x2="130" y2="35" class="synapse" />
-  <line x1="60" y1="45" x2="130" y2="75" class="synapse" style="animation-delay: 0.3s;" />
-  <line x1="60" y1="105" x2="130" y2="75" class="synapse" style="animation-delay: 0.6s;" />
-  <line x1="60" y1="105" x2="130" y2="115" class="synapse" style="animation-delay: 0.9s;" />
+  <!-- Container -->
+  <rect width="380" height="160" rx="8" fill="url(#aiCardBg)" stroke="#1e293b" stroke-width="1.2" />
 
-  <line x1="130" y1="35" x2="250" y2="55" class="synapse" style="animation-delay: 1.2s;" />
-  <line x1="130" y1="75" x2="250" y2="55" class="synapse" style="animation-delay: 0.4s;" />
-  <line x1="130" y1="75" x2="250" y2="95" class="synapse" style="animation-delay: 0.8s;" />
-  <line x1="130" y1="115" x2="250" y2="95" class="synapse" style="animation-delay: 1.5s;" />
+  <!-- Synaptic Weights Paths -->
+  <line x1="65" y1="50" x2="140" y2="40" class="syn-line" />
+  <line x1="65" y1="50" x2="140" y2="80" class="syn-line" style="animation-delay: 0.3s;" />
+  <line x1="65" y1="110" x2="140" y2="80" class="syn-line" style="animation-delay: 0.6s;" />
+  <line x1="65" y1="110" x2="140" y2="120" class="syn-line" style="animation-delay: 0.9s;" />
 
-  <line x1="250" y1="55" x2="320" y2="75" class="synapse" style="animation-delay: 0.7s;" />
-  <line x1="250" y1="95" x2="320" y2="75" class="synapse" style="animation-delay: 1.1s;" />
+  <line x1="140" y1="40" x2="245" y2="60" class="syn-line" style="animation-delay: 1.2s;" />
+  <line x1="140" y1="80" x2="245" y2="60" class="syn-line" style="animation-delay: 0.4s;" />
+  <line x1="140" y1="80" x2="245" y2="100" class="syn-line" style="animation-delay: 0.8s;" />
+  <line x1="140" y1="120" x2="245" y2="100" class="syn-line" style="animation-delay: 1.5s;" />
+
+  <line x1="245" y1="60" x2="320" y2="80" class="syn-line" style="animation-delay: 0.7s;" />
+  <line x1="245" y1="100" x2="320" y2="80" class="syn-line" style="animation-delay: 1.1s;" />
 
   <!-- Layer 1: Ollama Local Models -->
-  <circle cx="60" cy="45" class="neuron" filter="url(#aiGlow)" />
-  <circle cx="60" cy="105" class="neuron" style="animation-delay: 0.5s;" filter="url(#aiGlow)" />
-  <text x="60" y="25" text-anchor="middle" fill="#ff8080" font-family="'Fira Code', monospace" font-size="8">OLLAMA</text>
+  <circle cx="65" cy="50" class="neur-dot" filter="url(#purpleGlow)" />
+  <circle cx="65" cy="110" class="neur-dot" style="animation-delay: 0.5s;" filter="url(#purpleGlow)" />
+  <text x="65" y="28" text-anchor="middle" fill="#e2e8f0" font-family="'Fira Code', monospace" font-size="8.5" font-weight="bold">OLLAMA</text>
+  <text x="65" y="132" text-anchor="middle" fill="#64748b" font-family="'Fira Code', monospace" font-size="7">LOCAL LLM</text>
 
-  <!-- Layer 2: Transformers & Embeddings -->
-  <circle cx="130" cy="35" class="neuron" style="animation-delay: 0.8s;" filter="url(#aiGlow)" />
-  <circle cx="130" cy="75" class="neuron" style="animation-delay: 0.3s;" filter="url(#aiGlow)" />
-  <circle cx="130" cy="115" class="neuron" style="animation-delay: 1s;" filter="url(#aiGlow)" />
-  <text x="130" y="137" text-anchor="middle" fill="#ff8080" font-family="'Fira Code', monospace" font-size="8">TRANSFORMERS</text>
+  <!-- Layer 2: Transformers & Tokenizers -->
+  <circle cx="140" cy="40" class="neur-dot" style="animation-delay: 0.8s;" filter="url(#purpleGlow)" />
+  <circle cx="140" cy="80" class="neur-dot" style="animation-delay: 0.3s;" filter="url(#purpleGlow)" />
+  <circle cx="140" cy="120" class="neur-dot" style="animation-delay: 1s;" filter="url(#purpleGlow)" />
+  <text x="140" y="24" text-anchor="middle" fill="#ffd21e" font-family="'Fira Code', monospace" font-size="8">TRANSFORMERS</text>
 
-  <!-- Layer 3: Hugging Face Models -->
-  <circle cx="250" cy="55" class="neuron" style="animation-delay: 0.4s;" filter="url(#aiGlow)" />
-  <circle cx="250" cy="95" class="neuron" style="animation-delay: 1.2s;" filter="url(#aiGlow)" />
-  <text x="250" y="25" text-anchor="middle" fill="#ff8080" font-family="'Fira Code', monospace" font-size="8">HUGGING FACE</text>
+  <!-- Layer 3: Hugging Face Pipelines -->
+  <circle cx="245" cy="60" class="neur-dot" style="animation-delay: 0.4s;" filter="url(#purpleGlow)" />
+  <circle cx="245" cy="100" class="neur-dot" style="animation-delay: 1.2s;" filter="url(#purpleGlow)" />
+  <text x="245" y="28" text-anchor="middle" fill="#ffd21e" font-family="'Fira Code', monospace" font-size="8.5" font-weight="bold">HUGGING FACE</text>
 
   <!-- Layer 4: Inference Engine -->
-  <circle cx="320" cy="75" class="neuron" style="animation-delay: 0.9s; fill: #00e676;" filter="url(#aiGlow)" />
-  <text x="320" y="105" text-anchor="middle" fill="#a7f3d0" font-family="'Fira Code', monospace" font-size="8">INFERENCE</text>
+  <circle cx="320" cy="80" class="neur-dot" style="animation-delay: 0.9s; fill: #10b981;" filter="url(#purpleGlow)" />
+  <text x="320" y="105" text-anchor="middle" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="8.5" font-weight="bold">INFERENCE</text>
+  <text x="320" y="117" text-anchor="middle" fill="#64748b" font-family="'Fira Code', monospace" font-size="7">OFFLINE</text>
 </svg>
