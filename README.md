@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ========================================================================= -->
-<!--                   SUDEEP NELLAPPA - GITHUB PROFILE README                -->
+<!--                   SUDEEP - GITHUB PROFILE README                -->
 <!--       Cloud & DevOps Engineer | AWS Security Architect | Full Stack | AI  -->
 <!-- ========================================================================= -->
 
@@ -9,7 +9,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Sudeep Nellappa" src="assets/banner-light.svg" width="100%" style="border-radius: 12px;">
+  <img alt="Sudeep" src="assets/banner-light.svg" width="100%" style="border-radius: 12px;">
 </picture>
 
 <br/><br/>
