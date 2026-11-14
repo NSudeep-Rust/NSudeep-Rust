@@ -1,18 +1,14 @@
-name: Generate Contribution Animation
+name: Generate Snake Animation
 
 on:
   schedule:
-    # Refresh from real GitHub contributions every 12 hours.
+    # Run automatically every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
       - master
-    paths:
-      - README.md
-      - assets/midnight/**
-      - .github/workflows/snake.yml
 
 jobs:
   generate:
@@ -22,15 +18,15 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate Blue Hour Contribution SVGs
+      - name: Generate Contribution Grid Snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: NSudeep-Rust
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%23315f85&color_dots=%23edf3f8,%23d2e0ec,%239cb7ce,%236489a8,%23315f85
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23b4cddd&color_dots=%23142130,%2321374b,%233a5872,%236c91b0,%23b4cddd
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Publish Contribution SVGs
+      - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

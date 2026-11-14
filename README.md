@@ -1,65 +1,165 @@
-<!-- Blue Hour — Sudeep Nellappa. Self-contained SVGs; light and dark share one palette. -->
+<div align="center">
 
-<img src="assets/midnight/hero.svg" alt="Sudeep Nellappa — Cloud engineering, DevOps and security. A blue-hour landscape with a number 44 racing car." width="100%">
+<!-- ========================================================================= -->
+<!--                   SUDEEP - GITHUB PROFILE README                -->
+<!--       Cloud & DevOps Engineer | AWS Security Architect | Full Stack | AI  -->
+<!-- ========================================================================= -->
 
-<p align="center">
-  <a href="mailto:sudeepn1011@gmail.com">EMAIL</a> &nbsp; / &nbsp;
-  <a href="https://github.com/NSudeep-Rust?tab=repositories">PROJECTS</a> &nbsp; / &nbsp;
-  <a href="https://github.com/NSudeep-Rust/AWS-Cloud-Control-Panel">CLOUDSHIELD</a>
-</p>
-
-## 01 / A little about me
-
-I'm **Sudeep**, a Cloud & DevOps engineer and full-stack developer based in **Dharwad, India**. I work on AWS security, automated delivery, and privacy-first local AI, and I'm currently pursuing my **MCA at Karnatak University**.
-
-I like understanding how systems fit together, making them more reliable, and building tools people can actually use. Currently open to **full-time and remote roles** in cloud, DevOps, security, and full-stack engineering.
-
-**Cloud & security** · AWS, EC2, S3, IAM, VPC, KMS  
-**Delivery & systems** · GitHub Actions, Linux, Bash, Git  
-**Web & applications** · Python, FastAPI, React, PHP, MySQL  
-**Local AI** · Ollama, Hugging Face, Transformers
-
-## 02 / Built with purpose
-
-<a href="https://github.com/NSudeep-Rust/AWS-Cloud-Control-Panel">
+<!-- Dual Dynamic Theme Banners: Dark & Light Mode Toggle -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/midnight/cloudshield-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/midnight/cloudshield-light.svg">
-  <img src="assets/midnight/cloudshield-dark.svg" alt="AWS CloudShield — 52+ security checks, 9 AWS regions, dry-run previews and rollback support." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Sudeep" src="assets/banner-light.svg" width="100%" style="border-radius: 12px;">
 </picture>
+
+<br/><br/>
+
+<!-- Dynamic Animated Role Typewriter in Dual Color for Dark/Light Themes -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0369a1&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0369a1&center=true&vCenter=true&width=750&height=50&lines=Cloud+and+DevOps+Engineer;AWS+Cloud+Security+Architect;Full+Stack+Web+Developer;CI+CD+and+Multi-Platform+Deployment;Local+AI+Model+Inference+(Ollama+%7C+Hugging+Face)" alt="Typing SVG" width="100%" />
+</picture>
+
+<br/><br/>
+
+<!-- Status Badges -->
+<a href="mailto:sudeepn1011@gmail.com">
+  <img src="https://img.shields.io/badge/Status-Open_To_Work_(Full--Time_%2F_Remote)-00C853?style=for-the-badge&logo=briefcase&logoColor=white" alt="Open to Work" />
 </a>
+&nbsp;
+<a href="#-lets-connect--collaborate">
+  <img src="https://img.shields.io/badge/Open_To-Collaborate-00B0FF?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to Collaborate" />
+</a>
+&nbsp;
+<img src="https://img.shields.io/badge/Location-Dharwad%2C_Karnataka-0f172a?style=for-the-badge&logo=googlemaps&logoColor=00F2FE" alt="Location" />
 
-My MCA project brings **52+ security checks across 9 AWS regions**, IAM risk analysis, live threat monitoring, and reversible remediation into one desktop application. Built with Python, FastAPI, React, and Electron.
+<br/><br/>
 
-[Explore the project →](https://github.com/NSudeep-Rust/AWS-Cloud-Control-Panel)
+<img src="https://img.shields.io/badge/AWS-Trained_%26_Certified-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Certified" />
+&nbsp;
+<img src="https://img.shields.io/badge/Google-Cybersecurity_Certified-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity" />
+&nbsp;
+<img src="https://img.shields.io/badge/Google-AI_Essentials-9C27B0?style=for-the-badge&logo=google&logoColor=white" alt="Google AI Essentials" />
 
-**Learning & credentials** &nbsp; MCA, Karnatak University · BCA, JSS SMI, Dharwad  
-Google Cybersecurity Specialization · Google AI Essentials · AWS training · Full-stack training, Pravinya InfoTech
+</div>
 
-## 03 / One commit at a time
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
+<br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NSudeep-Rust/NSudeep-Rust/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NSudeep-Rust/NSudeep-Rust/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/NSudeep-Rust/NSudeep-Rust/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution calendar, generated from my GitHub contributions every 12 hours." width="100%">
-</picture>
+## ⚡ Executive Briefing & About Me
 
-<p align="center"><sub>Small steps, real work. <a href="https://github.com/NSudeep-Rust?tab=overview">View my GitHub activity →</a></sub></p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/01-about-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/01-about-light.svg">
+    <img alt="Executive Briefing & About Me" src="assets/01-about-light.svg" width="100%">
+  </picture>
+</div>
 
-## 04 / Away from the terminal
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
+<br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/midnight/interests-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/midnight/interests-light.svg">
-  <img src="assets/midnight/interests-dark.svg" alt="Off duty: Lewis Hamilton and F1, sim racing, RDR2, The Last of Us, Neymar, football and EA Sports FC." width="100%">
-</picture>
+## ⚡ Core Engineering Pillars
 
-Race weekends with **Lewis Hamilton**, a long ride through **RDR2**, or **Neymar** doing Neymar things. Also into The Last of Us, sim racing, and EA Sports FC.
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/02-pillars-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/02-pillars-light.svg">
+    <img alt="Core Engineering Pillars" src="assets/02-pillars-light.svg" width="100%">
+  </picture>
+</div>
 
-<p align="center">Cloud infrastructure, open-source tools, or a good project idea?<br><a href="mailto:sudeepn1011@gmail.com"><strong>Let’s talk → sudeepn1011@gmail.com</strong></a></p>
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
+<br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/midnight/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/midnight/footer-light.svg">
-  <img src="assets/midnight/footer-dark.svg" alt="There is always another horizon. Let’s build something that lasts." width="100%">
-</picture>
+## 🛡️ Featured Engineering Project: AWS CloudShield
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/03-cloudshield-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/03-cloudshield-light.svg">
+    <img alt="Featured Engineering Project: AWS CloudShield" src="assets/03-cloudshield-light.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
+<br/>
+
+## 🏆 Credentials & Education
+
+<div align="center">
+
+| <img src="https://img.shields.io/badge/Degree-MCA%20Pursuing-00B0FF?style=for-the-badge&logo=academia&logoColor=white" /><br/>**Master of Computer Applications (MCA)**<br/>Karnatak University, Dharwad | <img src="https://img.shields.io/badge/Degree-BCA%20Graduate-00E676?style=for-the-badge&logo=academia&logoColor=white" /><br/>**Bachelor of Computer Applications (BCA)**<br/>JSS SMI UG & PG Studies, Dharwad |
+| :---: | :---: |
+| <img src="https://img.shields.io/badge/Google-Cybersecurity%20Specialization-4285F4?style=for-the-badge&logo=google&logoColor=white" /><br/>**Google Cybersecurity Specialization**<br/>Coursera Certified Professional | <img src="https://img.shields.io/badge/Google-AI%20Essentials-9C27B0?style=for-the-badge&logo=google&logoColor=white" /><br/>**Google AI Essentials**<br/>Foundational AI & Prompt Engineering |
+| <img src="https://img.shields.io/badge/AWS-Training%20Certificate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" /><br/>**AWS Training Certificate**<br/>Core Cloud Services & Architecture | <img src="https://img.shields.io/badge/Full%20Stack-Pravinya%20InfoTech-00C853?style=for-the-badge&logo=code&logoColor=white" /><br/>**Full Stack Training Certificate**<br/>Full Stack PHP, MySQL, Bootstrap |
+
+</div>
+
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
+<br/>
+
+## 📈 Real-Time GitHub Telemetry & Stats
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/04-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/04-stats-light.svg">
+    <img alt="Real-Time GitHub Telemetry & Stats" src="assets/04-stats-light.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
+<br/>
+
+## 🏎️ Live Contribution Activity Grid
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/05-f1-grid-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/05-f1-grid-light.svg">
+    <img alt="Live Contribution Activity Grid" src="assets/05-f1-grid-light.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
+<br/>
+
+## 🤝 Let's Connect & Collaborate!
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/06-connect-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/06-connect-light.svg">
+    <img alt="Let's Connect & Collaborate!" src="assets/06-connect-light.svg" width="100%">
+  </picture>
+
+  <br/><br/>
+
+  <p align="center">
+    <a href="mailto:sudeepn1011@gmail.com">
+      <img src="https://img.shields.io/badge/Direct_Email-sudeepn1011%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Sudeep" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/NSudeep-Rust">
+      <img src="https://img.shields.io/badge/GitHub_Profile-NSudeep--Rust-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub NSudeep-Rust" />
+    </a>
+  </p>
+</div>
+
+<br/>
+
+<!-- Matching Sleek Cyber Footer Wave -->
+<div align="center">
+  <a href="https://github.com/NSudeep-Rust">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:030712,50:0b1329,100:00f2fe&section=footer" width="100%" alt="Footer Wave" />
+  </a>
+</div>
