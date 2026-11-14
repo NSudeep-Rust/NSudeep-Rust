@@ -1,14 +1,6 @@
-<svg width="100%" height="160" viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="160" viewBox="0 0 380 160">
   <defs>
-    <linearGradient id="aiCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1329" />
-      <stop offset="100%" stop-color="#030712" />
-    </linearGradient>
-    <filter id="purpleGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-  </defs>
+    </defs>
 
   <style>
     @keyframes synapseGlow {
@@ -23,10 +15,10 @@
     .neur-dot { animation: neuronPulse 2.2s infinite ease-in-out; }
   </style>
 
-  <!-- Container -->
-  <rect width="380" height="160" rx="8" fill="url(#aiCardBg)" stroke="#1e293b" stroke-width="1.2" />
+  
+  <rect width="380" height="160" rx="2" fill="#0b1320" stroke="#314147" stroke-width="1.2" stroke-opacity="1" />
 
-  <!-- Synaptic Weights Paths -->
+  
   <line x1="65" y1="50" x2="140" y2="40" class="syn-line" />
   <line x1="65" y1="50" x2="140" y2="80" class="syn-line" style="animation-delay: 0.3s;" />
   <line x1="65" y1="110" x2="140" y2="80" class="syn-line" style="animation-delay: 0.6s;" />
@@ -40,25 +32,25 @@
   <line x1="245" y1="60" x2="320" y2="80" class="syn-line" style="animation-delay: 0.7s;" />
   <line x1="245" y1="100" x2="320" y2="80" class="syn-line" style="animation-delay: 1.1s;" />
 
-  <!-- Layer 1: Ollama Local Models -->
-  <circle cx="65" cy="50" class="neur-dot" filter="url(#purpleGlow)" />
-  <circle cx="65" cy="110" class="neur-dot" style="animation-delay: 0.5s;" filter="url(#purpleGlow)" />
+  
+  <circle cx="65" cy="50" class="neur-dot" />
+  <circle cx="65" cy="110" class="neur-dot" style="animation-delay: 0.5s;" />
   <text x="65" y="28" text-anchor="middle" fill="#e2e8f0" font-family="'Fira Code', monospace" font-size="8.5" font-weight="bold">OLLAMA</text>
   <text x="65" y="132" text-anchor="middle" fill="#64748b" font-family="'Fira Code', monospace" font-size="7">LOCAL LLM</text>
 
-  <!-- Layer 2: Transformers & Tokenizers -->
-  <circle cx="140" cy="40" class="neur-dot" style="animation-delay: 0.8s;" filter="url(#purpleGlow)" />
-  <circle cx="140" cy="80" class="neur-dot" style="animation-delay: 0.3s;" filter="url(#purpleGlow)" />
-  <circle cx="140" cy="120" class="neur-dot" style="animation-delay: 1s;" filter="url(#purpleGlow)" />
+  
+  <circle cx="140" cy="40" class="neur-dot" style="animation-delay: 0.8s;" />
+  <circle cx="140" cy="80" class="neur-dot" style="animation-delay: 0.3s;" />
+  <circle cx="140" cy="120" class="neur-dot" style="animation-delay: 1s;" />
   <text x="140" y="24" text-anchor="middle" fill="#ffd21e" font-family="'Fira Code', monospace" font-size="8">TRANSFORMERS</text>
 
-  <!-- Layer 3: Hugging Face Pipelines -->
-  <circle cx="245" cy="60" class="neur-dot" style="animation-delay: 0.4s;" filter="url(#purpleGlow)" />
-  <circle cx="245" cy="100" class="neur-dot" style="animation-delay: 1.2s;" filter="url(#purpleGlow)" />
+  
+  <circle cx="245" cy="60" class="neur-dot" style="animation-delay: 0.4s;" />
+  <circle cx="245" cy="100" class="neur-dot" style="animation-delay: 1.2s;" />
   <text x="245" y="28" text-anchor="middle" fill="#ffd21e" font-family="'Fira Code', monospace" font-size="8.5" font-weight="bold">HUGGING FACE</text>
 
-  <!-- Layer 4: Inference Engine -->
-  <circle cx="320" cy="80" class="neur-dot" style="animation-delay: 0.9s; fill: #10b981;" filter="url(#purpleGlow)" />
+  
+  <circle cx="320" cy="80" class="neur-dot" style="animation-delay: 0.9s; fill: #10b981;" />
   <text x="320" y="105" text-anchor="middle" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="8.5" font-weight="bold">INFERENCE</text>
   <text x="320" y="117" text-anchor="middle" fill="#64748b" font-family="'Fira Code', monospace" font-size="7">OFFLINE</text>
 </svg>

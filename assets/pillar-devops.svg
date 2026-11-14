@@ -1,10 +1,6 @@
-<svg width="100%" height="160" viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="160" viewBox="0 0 380 160">
   <defs>
-    <linearGradient id="doCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1329" />
-      <stop offset="100%" stop-color="#030712" />
-    </linearGradient>
-  </defs>
+    </defs>
 
   <style>
     @keyframes doFlow {
@@ -13,7 +9,7 @@
     }
     @keyframes doStage {
       0%, 100% { opacity: 0.85; }
-      50% { opacity: 1; filter: drop-shadow(0 0 5px #38bdf8); }
+      50% { opacity: 1;  }
     }
     .do-line {
       stroke: #38bdf8;
@@ -26,41 +22,41 @@
     }
   </style>
 
-  <!-- Container -->
-  <rect width="380" height="160" rx="8" fill="url(#doCardBg)" stroke="#1e293b" stroke-width="1.2" />
+  
+  <rect width="380" height="160" rx="2" fill="#0b1320" stroke="#314147" stroke-width="1.2" stroke-opacity="1" />
 
-  <!-- Pipeline Tracks -->
+  
   <line x1="60" y1="80" x2="140" y2="80" class="do-line" />
   <line x1="140" y1="80" x2="230" y2="80" class="do-line" />
   <line x1="230" y1="80" x2="320" y2="80" class="do-line" />
 
-  <!-- Stage 1: Git Repository -->
+  
   <g transform="translate(55, 80)" class="do-node">
-    <rect x="-35" y="-28" width="70" height="56" rx="6" fill="#0f172a" stroke="#f05032" stroke-width="1.5" />
+    <rect x="-35" y="-28" width="70" height="56" rx="2" fill="#0f172a" stroke="#f05032" stroke-width="1.5" />
     <circle cx="-20" cy="-15" r="3" fill="#f05032" />
     <text x="0" y="-5" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" font-weight="bold" fill="#ffffff">GIT</text>
     <text x="0" y="8" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" fill="#94a3b8">PUSH</text>
   </g>
 
-  <!-- Stage 2: GitHub Actions CI -->
+  
   <g transform="translate(145, 80)" class="do-node" style="animation-delay: 0.4s;">
-    <rect x="-35" y="-28" width="70" height="56" rx="6" fill="#0f172a" stroke="#2088ff" stroke-width="1.5" />
+    <rect x="-35" y="-28" width="70" height="56" rx="2" fill="#0f172a" stroke="#2088ff" stroke-width="1.5" />
     <circle cx="-20" cy="-15" r="3" fill="#2088ff" />
     <text x="0" y="-5" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" font-weight="bold" fill="#ffffff">ACTIONS</text>
     <text x="0" y="8" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" fill="#38bdf8">CI TEST</text>
   </g>
 
-  <!-- Stage 3: Multi-Platform Build -->
+  
   <g transform="translate(235, 80)" class="do-node" style="animation-delay: 0.8s;">
-    <rect x="-35" y="-28" width="70" height="56" rx="6" fill="#0f172a" stroke="#facc15" stroke-width="1.5" />
+    <rect x="-35" y="-28" width="70" height="56" rx="2" fill="#0f172a" stroke="#facc15" stroke-width="1.5" />
     <circle cx="-20" cy="-15" r="3" fill="#facc15" />
     <text x="0" y="-5" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" font-weight="bold" fill="#ffffff">BUILD</text>
     <text x="0" y="8" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" fill="#fef08a">LINUX/WIN</text>
   </g>
 
-  <!-- Stage 4: Production Deployment -->
+  
   <g transform="translate(325, 80)" class="do-node" style="animation-delay: 1.2s;">
-    <rect x="-35" y="-28" width="70" height="56" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.8" />
+    <rect x="-35" y="-28" width="70" height="56" rx="2" fill="#0f172a" stroke="#10b981" stroke-width="1.8" />
     <circle cx="-20" cy="-15" r="3" fill="#10b981" />
     <text x="0" y="-5" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" font-weight="bold" fill="#ffffff">DEPLOY</text>
     <text x="0" y="8" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" fill="#6ee7b7">LIVE ✔</text>

@@ -9,7 +9,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Sudeep" src="assets/banner-light.svg" width="100%" style="border-radius: 12px;">
+  <img alt="Sudeep" src="assets/banner-light.svg" width="100%">
 </picture>
 
 <br/><br/>
@@ -48,13 +48,13 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b1329,50:00f2fe,100:0b1329" width="100%" alt="Divider" />
 <br/>
 
-## ⚡ Executive Briefing & About Me
+## ⚡ About Me
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/01-about-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/01-about-light.svg">
-    <img alt="Executive Briefing & About Me" src="assets/01-about-light.svg" width="100%">
+    <img alt="About Sudeep — MCA student at Karnatak University, building cloud security tools, deployment pipelines, full-stack apps and local AI projects." src="assets/01-about-light.svg" width="100%">
   </picture>
 </div>
 
@@ -163,3 +163,4 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:030712,50:0b1329,100:00f2fe&section=footer" width="100%" alt="Footer Wave" />
   </a>
 </div>
+
